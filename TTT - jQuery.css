@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #040326;
+    color: wheat;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 30px auto 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+}
+
+#scoreboard {
+    width: 450px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#scoreO {
+    margin-right: 50px;
+    color: #fe4afb;
+}
+
+#scoreX {
+    margin-right: 50px;
+    color: #a465f7;
+}
+
+button {
+    display: block; 
+    float: left;
+    margin: 2px;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.button-x {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: #a465f7;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 80px;
+}
+
+.button-x:hover {
+    background-color: #af76fa;
+
+}
+
+.button-o {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: #fe4afb;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 90px;
+}
+
+.button-o:hover {
+    background-color: #ff75fd;
+}
+
+#reset {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #188194;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+}
+
+#reset:hover {
+    background-color: #1fa1b8;
+}
+
+#pTag {
+    margin-top: 20px;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
